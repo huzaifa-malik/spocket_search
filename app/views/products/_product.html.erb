@@ -1,0 +1,20 @@
+<tr>
+  <td>
+    <%= link_to product.title, product_path(product.id, format: 'js'), remote: true %>
+  </td>
+  <td>
+    <%= product.description %>
+  </td>
+  <td>
+    <%= product.country&.name %>
+  </td>
+  <td>
+    <%= product.tags.join(', ') %>
+  </td>
+  <td>
+    <%= product.price %>
+  </td>
+  <td>
+    <%= product.created_at.strftime('%d %b, %Y') %>
+  </td>
+</tr>

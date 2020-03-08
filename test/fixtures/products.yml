@@ -1,0 +1,14 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: "lorem Ipsum"
+  description: "lorem Ipsum is kasasa"
+  country_id: 1
+  tags: ["cdmkc", '2m3', 'n23jk']
+  price: 3.99
+two:
+  title: "clascnalmscaslknckljasncasc"
+  description: "lorem Ipsum is kasasa jkcnasncksnc"
+  country_id: 2
+  tags: ["cdmkc", '2m3', 'n23jk']
+  price: 4.99
